@@ -6,4 +6,6 @@
 
 √figure out the javascript layout
 work on html/css
-figure how i want to layout all the number boxes
+    √finish header
+
+√figure how i want to layout all the number boxes
