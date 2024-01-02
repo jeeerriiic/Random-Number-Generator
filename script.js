@@ -1,21 +1,23 @@
-const number = document.getElementById('number1');
-const number2 = document.getElementById('num');
+const equationGen = document.getElementById('equationGenerator');
+const equationAdd = document.getElementById('equationAdd');
+
+
 const generator = document.getElementById('generatebtn');
 
-const randomNumberGenerator = () => {
-    const randomNumber = Math.floor(Math.random() * 10 * 3);
-    number.textContent = randomNumber;
+const equationGenerator = () => {
+    const randomNumber = Math.floor(Math.random() * 10 * 1);
+    equationGen.textContent = randomNumber;
 }
 
-const randomNumberGenerator2 = () => {
-    const randomNumber = Math.floor(Math.random() * 10000 / 2);
-    number2.textContent = randomNumber;
+const randomNumberAdd = () => {
+    const randomNumber = Math.floor(Math.random() * 100 + 4);
+    equationAdd.textContent = randomNumber;
 }
 
 
-generatebtn.addEventListener('click', randomNumberGenerator)
-generatebtn.addEventListener('click', randomNumberGenerator2)
+generatebtn.addEventListener('click', equationGenerator)
+generatebtn.addEventListener('click', randomNumberAdd)
 
 
-randomNumberGenerator;
-randomNumberGenerator2;
+equationGenerator;
+randomNumberAdd;
