@@ -8,10 +8,10 @@ body {
 }
 /* body */
 
-/* body */
+/* header */
 header {
     font-size: 2rem;
-    background-color: #00ffa2d4;
+    background-color: #00ffa2b8;
     text-decoration: underline;
     text-decoration-style: wavy;
     border-top: 2px solid #000;
@@ -22,9 +22,50 @@ header {
 header h1 {
     margin: 1% 0%;
 }
-/* body */
+/* header */
 
+/* containers */
+/* main container */
+.mainCont {
+    border: 2px solid red;
+}
+/* main container */
+
+/* equation generator */
+.equationGenerator {
+    border: 2px solid orchid;
+}
+/* equation generator */
+
+/* add */
+.equationAdd {
+    border: 2px solid red;
+}
+/* add */
+
+/* generate button */
 button {
     background-color: aqua;
     border: 2px solid red;
 }
+/* generate button */
+
+/* subtract */
+.equationSub {
+    border: 2px solid red;
+}
+/* subtract */
+
+/* multiply */
+.equationMultiply {
+    border: 2px solid red;
+}
+/* multiply */
+
+/* division */
+.equationDivision {
+    border: 2px solid red;
+}
+/* division */
+
+/* containers */
