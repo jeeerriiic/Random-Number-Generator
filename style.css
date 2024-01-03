@@ -7,13 +7,14 @@ body {
     text-align: center;
     overflow-y: auto;
     overflow-x: hidden;
+    background-color: #04335d;
 }
 /* body */
 
 /* header */
 header {
     font-size: 2rem;
-    color: #fff;
+    color: #ffb700;
     background-color: #0a4f8a;
     text-decoration: underline;
     text-decoration-style: wavy;
@@ -39,6 +40,7 @@ header h1 {
     margin: 0;
     font-size: 2.5rem;
     letter-spacing: 0.4rem;
+    color: #ffb700;
     border: 2px solid #fff;
 }
 
@@ -142,3 +144,35 @@ button:hover {
 /* division */
 
 /* containers */
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffb700;
+    border-top: 2px solid #fff;
+    font-size: 0.9rem;
+    letter-spacing: 0.5rem;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footerContLeft {
+    margin: 0% 0% 0% 1%;
+    padding: 0.5% 1%;
+}
+
+.footerContRight {
+    margin: 0% 1% 0% 0%;
+    padding: 0.5% 1%;
+}
+
+/* footer */
