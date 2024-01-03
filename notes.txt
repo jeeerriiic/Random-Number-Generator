@@ -2,12 +2,18 @@
 1/2/2024
 √finish html
 √finish javascript
-finish css
+Xfinish css
 
-
+!! NOT PRIORITY !!
+add the equation that is being generated for each equation in html
+javascript
+    add 2 more equations
 
 √figure out the javascript layout
 work on html/css
     √finish header
+    add footer
+        left project title
+        right contact
 
 √figure how i want to layout all the number boxes
