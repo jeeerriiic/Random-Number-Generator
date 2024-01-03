@@ -15,21 +15,21 @@ const equationGenerator = () => {
 
 // add
 const randomNumberAdd = () => {
-    const randomNumber = Math.floor(Math.random() * 100 + 4);
+    const randomNumber = Math.floor(Math.random() * 152 + 4);
     equationAdd.textContent = randomNumber;
 }
 // add
 
 // subtract
 const randomNumberSub = () => {
-    const randomNumber = Math.floor(Math.random() * 1000 - 6);
+    const randomNumber = Math.floor(Math.random() * 5580 - 6);
     equationSub.textContent = randomNumber;
 }
 // subtract
 
 // multiply
 const randomNumberMultiply = () => {
-    const randomNumber = Math.floor(Math.random() * 10000 * 3);
+    const randomNumber = Math.floor(Math.random() * 18544 * 3);
     equationMultiply.textContent = randomNumber;
 }
 // multiply

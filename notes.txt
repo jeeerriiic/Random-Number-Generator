@@ -5,9 +5,10 @@
 Xfinish css
 
 !! NOT PRIORITY !!
-add the equation that is being generated for each equation in html
+√add the equation that is being generated for each equation in html
 javascript
-    add 2 more equations
+    Xadd 2 more equations
+add a description at the top to help people understand what is going on
 
 √figure out the javascript layout
 work on html/css

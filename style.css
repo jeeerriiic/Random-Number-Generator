@@ -33,12 +33,52 @@ header h1 {
     flex-direction: column;
     font-size: 4rem;
     width: 100%;
-    border: 2px solid red;
+}
+
+.mainCont p {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 0.4rem;
+    border: 2px solid #fff;
+}
+
+.mainCont span {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
+    letter-spacing: 0rem;
 }
 /* main container */
 
+/* explanation */
+.explanation {
+    width: 90%;
+    margin: 1% 5%;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color: #0a4f8a;
+    border: 5px solid #ffb700;
+}
+
+.explanation p {
+    letter-spacing: 0.1rem;
+}
+/* explanation */
+
 /* equation generator */
 .equationGenerator {
+    width: 80%;
+    margin: 1% 0%;
+    font-size: 4rem;
+    color: #fff;
+    background-color: #0a4f8a;
+    border: 5px solid #ffb700;
+}
+/* equation generator */
+
+/* add */
+.equationAdd {
     width: 90%;
     margin: 1% 5%;
     font-size: 4rem;
@@ -46,58 +86,44 @@ header h1 {
     background-color: #0a4f8a;
     border: 5px solid #ffb700;
 }
-/* equation generator */
-
-/* add, subtract, button Container */
-/* container */
-.addSubtractButtonCont {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2% 0%;
-}
-/* container */
-
 /* add */
-.equationAdd {
-    width: 20%;
-    color: #fff;
-    background-color: #0a4f8a;
-    border: 5px solid #ffb700;
-}
-/* add */
-
-/* subtract */
-.equationSub {
-    width: 20%;
-    color: #fff;
-    background-color: #0a4f8a;
-    border: 5px solid #ffb700;
-}
-/* subtract */
 
 /* generate button */
 button {
+    width: 30%;
+    margin: 1% 35%;
     font-size: 4rem;
-    width: 40%;
+    color: #d00;
+    background-color: #fff;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    border: 5px solid #d00;
+    border-radius: 5%;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #d00;
+}
+/* generate button */
+
+/* subtract */
+.equationSub {
+    width: 90%;
+    margin: 1% 0% 1% 9.4%;
+    font-size: 4rem;
     color: #fff;
     background-color: #0a4f8a;
     border: 5px solid #ffb700;
 }
-/* generate button */
-/* add, subtract, button Container */
-
-/* multiply and division Container */
-/* container */
-.multiplyDivisionCont {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2% 0%;
-}
-/* container */
+/* subtract */
 
 /* multiply */
 .equationMultiply {
-    width: 45%;
+    width: 90%;
+    margin: 1% 5%;
+    font-size: 4rem;
     color: #fff;
     background-color: #0a4f8a;
     border: 5px solid #ffb700;
@@ -106,12 +132,13 @@ button {
 
 /* division */
 .equationDivision {
-    width: 45%;
+    width: 90%;
+    margin: 1% 0%;
+    font-size: 4rem;
     color: #fff;
     background-color: #0a4f8a;
     border: 5px solid #ffb700;
 }
 /* division */
-/* multiply and division Container */
 
 /* containers */
