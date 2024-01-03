@@ -4,11 +4,16 @@
 √finish javascript
 Xfinish css
 
+
+1/3/2024
+add footer
+
+
 !! NOT PRIORITY !!
 √add the equation that is being generated for each equation in html
 javascript
     Xadd 2 more equations
-add a description at the top to help people understand what is going on
+√add a description at the top to help people understand what is going on
 
 √figure out the javascript layout
 work on html/css
